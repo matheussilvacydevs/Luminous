@@ -1,0 +1,46 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+.secrets/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Builds
+build/
+dist/
+coverage/
+
+# Temporary
+tmp/
+temp/
+.cache/
+
+# Dependencies
+node_modules/
+
+# Android / Flutter
+.gradle/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Local configuration
+local.properties
